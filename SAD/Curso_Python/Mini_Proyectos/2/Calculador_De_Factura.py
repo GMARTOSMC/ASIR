@@ -4,11 +4,11 @@ factura_inicial = float(input("¿De cuanto es la factura? Usa punto en lugar de 
 
 propina = float(input("¿Qué porcentaje de la factura quieres dejar como propina? Escribe solo el número, sin el porcentaje."))
 
-factura_total = float(factura_inicial + (factura_inicial * propina / 100))
+factura_total = (factura_inicial + (factura_inicial * propina / 100))
 
 personas = int(input("¿Cuántos sois?"))
 
-resultado = float(factura_total / personas)
+resultado = (factura_total / personas)
 
 resultado_redondeo = round(resultado, 2)
 
