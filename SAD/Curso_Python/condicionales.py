@@ -25,6 +25,3 @@ edad = 12
 if edad < 18 or edad > 30:
     print("No estás en el rando de edad 18-30")
 
-
-
-
