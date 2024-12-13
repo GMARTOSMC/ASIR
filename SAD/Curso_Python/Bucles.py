@@ -23,7 +23,7 @@ Multiplicador = 0
 while Multiplicador < 10:
     Multiplicador += 1
     Resultado = (int(Tabla) * int(Multiplicador))
-    print(str(Tabla)  + "*" + str(Multiplicador) + "=" + str(Resultado))
+    print(str(Tabla)  + " * " + str(Multiplicador) + " = " + str(Resultado))
 
 else:
     print("Se detiene la ejecución")
